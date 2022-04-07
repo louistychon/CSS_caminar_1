@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/bg.jpg");
+}
+#title{
+    display: flex;
+    justify-content: center;
+}
+#title h1{
+    font-size: 4rem;
+}
+#title p{
+    margin-top: 120px;
+    margin-left: -100px;
+    margin-right: 100px;
+}
+
+#maincontent{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;   
+}
+.image1{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+.bg-white{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1177px;
+    text-align: center;
+    height: 200px;
+    padding-top: 40px;
+    background-color: white;
+}
+.bg-white h2{
+    width: 100%;
+}
+.bg-white p{
+    width: 100%;
+}
+.bg-grey{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1177px;
+    text-align: center;
+    height: 100%;
+    padding-top: 40px;
+    background-color: rgb(225, 220, 213);
+}
+.bg-grey p{
+    padding: 40px 100px;
+}
+/*deuxieme partie a partir de gris*/
+#part2-content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(61, 61, 61);
+    width: 1177px;
+    justify-content: center;
+    margin: auto;
+}
+.grid1{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 100px;
+}
+.grid1 img{
+    width: 100%;
+}
+.galery1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bg-black{
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+.bg-black p{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.gallery2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1177px;
+    margin: auto;
+    background-color: white;
+}
+.img-contenu img{
+    width: 100%;
+    height: 101%;
+}
+.txt-contenu{
+    padding: 50px 100px;
+}
+.gallery2 div:nth-child(3){
+    background-color: grey;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;   
+}
+.itemsocial{
+    margin: 0px 10px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
